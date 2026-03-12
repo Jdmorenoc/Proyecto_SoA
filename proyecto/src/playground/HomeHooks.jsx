@@ -37,11 +37,21 @@ function HomeHooks() {
             </td>
           </tr>
           <tr>
-            <td>UseDebugValue</td>
+            <td>useDebugValue</td>
             <td>Permite mostrar información de depuración de un hook personalizado en React DevTools para facilitar el desarrollo.</td>
             <td>Debug</td>
             <td>
               <button onClick={() => navigate("/useDebugValue")}>
+                Ver Ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useMemo</td>
+            <td>se utiliza para memorizar el resultado de un cálculo y evitar que se ejecute nuevamente en cada render.</td>
+            <td>Performance</td>
+            <td>
+              <button onClick={() => navigate("/useMemo")}>
                 Ver Ejemplo
               </button>
             </td>
