@@ -14,6 +14,12 @@ import UseLayoutEffect from './playground/UseLayoutEffect';
 import UseImperativeHandle from './playground/UseImperativeHandle';
 import UseId from './playground/UseId';
 import Use from './playground/Use';
+import UseContextExample from './playground/UseContext';
+import UseSyncExternalStoreExample from './playground/UseSyncExternalStore';
+import UseTransitionExample from './playground/UseTransition';
+import UseInsertionEffectExample from './playground/UseInsertionEffect';
+import UseOptimisticExample from './playground/UseOptimistic';
+import UseFormStatusExample from './playground/UseFormStatus';
 
 function App() {
 
@@ -34,6 +40,12 @@ function App() {
         <Route path="/useImperativeHandle" element={<UseImperativeHandle/>} />
         <Route path="/useId" element={<UseId/>} />
         <Route path="/use" element={<Use/>} />
+        <Route path="/useContext" element={<UseContextExample/>} />
+        <Route path="/useSyncExternalStore" element={<UseSyncExternalStoreExample/>} />
+        <Route path="/useTransition" element={<UseTransitionExample/>} />
+        <Route path="/useInsertionEffect" element={<UseInsertionEffectExample/>} />
+        <Route path="/useOptimistic" element={<UseOptimisticExample/>} />
+        <Route path="/useFormStatus" element={<UseFormStatusExample/>} />
       </Routes>
     </BrowserRouter>
   )
