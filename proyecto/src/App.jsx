@@ -7,6 +7,13 @@ import UseMemoExample from './playground/UseMemo';
 import UseDeferredValueExample from './playground/UseDeferredValue';
 import UseEffectExample from './playground/UseEffect';
 import UseActionStateExample from './playground/UseActionState';
+import UseReducer from './playground/UseReducer';
+import UseRef from './playground/UseRef';
+import UseCallback from './playground/UseCallback';
+import UseLayoutEffect from './playground/UseLayoutEffect';
+import UseImperativeHandle from './playground/UseImperativeHandle';
+import UseId from './playground/UseId';
+import Use from './playground/Use';
 
 function App() {
 
@@ -20,6 +27,13 @@ function App() {
         <Route path="/useDeferredValue" element={<UseDeferredValueExample/>} />
         <Route path="/useEffect" element={<UseEffectExample/>} />
         <Route path="/useActionState" element={<UseActionStateExample/>} />
+        <Route path="/useReducer" element={<UseReducer/>} />
+        <Route path="/useRef" element={<UseRef/>} />
+        <Route path="/useCallback" element={<UseCallback/>} />
+        <Route path="/useLayoutEffect" element={<UseLayoutEffect/>} />
+        <Route path="/useImperativeHandle" element={<UseImperativeHandle/>} />
+        <Route path="/useId" element={<UseId/>} />
+        <Route path="/use" element={<Use/>} />
       </Routes>
     </BrowserRouter>
   )

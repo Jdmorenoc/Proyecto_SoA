@@ -46,6 +46,7 @@ function HomeHooks() {
               </button>
             </td>
           </tr>
+
           <tr>
             <td>useMemo</td>
             <td>se utiliza para memorizar el resultado de un cálculo y evitar que se ejecute nuevamente en cada render.</td>
@@ -56,6 +57,85 @@ function HomeHooks() {
               </button>
             </td>
           </tr>
+
+                    <tr>
+            <td>useReducer</td>
+            <td>Maneja estados complejos utilizando acciones y reducers.</td>
+            <td>Estado</td>
+            <td>
+              <button onClick={() => navigate("/useReducer")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>useRef</td>
+            <td>Permite acceder directamente a elementos del DOM.</td>
+            <td>Referencias</td>
+            <td>
+              <button onClick={() => navigate("/useRef")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>useImperativeHandle</td>
+            <td>Permite que un componente hijo exponga funciones al padre.</td>
+            <td>Referencias</td>
+            <td>
+              <button onClick={() => navigate("/useImperativeHandle")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>useCallback</td>
+            <td>Memoriza funciones para mejorar el rendimiento.</td>
+            <td>Performance</td>
+            <td>
+              <button onClick={() => navigate("/useCallback")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>useLayoutEffect</td>
+            <td>Ejecuta código después del render antes de que el navegador pinte la pantalla.</td>
+            <td>Efectos</td>
+            <td>
+              <button onClick={() => navigate("/useLayoutEffect")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>useId</td>
+            <td>Genera identificadores únicos para elementos del DOM.</td>
+            <td>Contexto / Accesibilidad</td>
+            <td>
+              <button onClick={() => navigate("/useId")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>use()</td>
+            <td>Permite consumir promesas o contextos directamente.</td>
+            <td>Datos</td>
+            <td>
+              <button onClick={() => navigate("/use")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+
+
         </tbody>
       </table>
     </div>
