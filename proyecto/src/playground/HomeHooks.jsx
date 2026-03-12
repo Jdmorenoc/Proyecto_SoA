@@ -134,6 +134,66 @@ function HomeHooks() {
               </button>
             </td>
           </tr>
+          <tr>
+            <td>useContext</td>
+            <td>Permite acceder a los datos de un Context de React dentro de un componente sin necesidad de pasar props manualmente entre múltiples niveles de componentes.</td>
+            <td>Contexto</td>
+            <td>
+              <button onClick={() => navigate("/useContext")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useSyncExternalStore</td>
+            <td>Permite a los componentes de React suscribirse a un store externo y mantenerse sincronizados cuando el estado cambia fuera de React.</td>
+            <td>Contexto / Estado externo</td>
+            <td>
+              <button onClick={() => navigate("/useSyncExternalStore")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useTransition</td>
+            <td>Permite marcar ciertas actualizaciones de estado como no urgentes, para que React pueda priorizar actualizaciones importantes y evitar bloquear la interfaz.</td>
+            <td>Performance</td>
+            <td>
+              <button onClick={() => navigate("/useTransition")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useInsertionEffect</td>
+            <td>Permite ejecutar código antes de que React actualice el DOM, normalmente para insertar estilos dinámicos y evitar problemas visuales.</td>
+            <td>Efectos</td>
+            <td>
+              <button onClick={() => navigate("/useInsertionEffect")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useOptimistic</td>
+            <td>Permite actualizar la interfaz de forma optimista, mostrando el cambio inmediatamente mientras se espera la respuesta del servidor.</td>
+            <td>Nuevos hooks / Estado optimista</td>
+            <td>
+              <button onClick={() => navigate("/useOptimistic")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useFormStatus</td>
+            <td>Permite conocer el estado de un formulario mientras se envía, por ejemplo si está pendiente, para actualizar la interfaz (botones, loaders, etc.).</td>
+            <td>Nuevos hooks / Formularios</td>
+            <td>
+              <button onClick={() => navigate("/useFormStatus")}>
+                Ver ejemplo
+              </button>
+            </td>
+          </tr>
 
 
         </tbody>
