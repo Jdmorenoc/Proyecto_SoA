@@ -9,6 +9,7 @@ import UseEffectExample from './playground/UseEffect';
 import UseActionStateExample from './playground/UseActionState';
 import UseReducer from './playground/UseReducer';
 import UseRef from './playground/UseRef';
+import UseCallback from './playground/UseCallback';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/useActionState" element={<UseActionStateExample/>} />
         <Route path="/useReducer" element={<UseReducer/>} />
         <Route path="/useRef" element={<UseRef/>} />
+        <Route path="/useCallback" element={<UseCallback/>} />
       </Routes>
     </BrowserRouter>
   )
