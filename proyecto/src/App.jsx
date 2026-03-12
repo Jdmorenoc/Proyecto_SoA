@@ -14,6 +14,7 @@ import UseLayoutEffect from './playground/UseLayoutEffect';
 import UseImperativeHandle from './playground/UseImperativeHandle';
 import UseId from './playground/UseId';
 import Use from './playground/Use';
+import UseContextExample from './playground/UseContext';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/useImperativeHandle" element={<UseImperativeHandle/>} />
         <Route path="/useId" element={<UseId/>} />
         <Route path="/use" element={<Use/>} />
+        <Route path="/useContext" element={<UseContextExample/>} />
       </Routes>
     </BrowserRouter>
   )
