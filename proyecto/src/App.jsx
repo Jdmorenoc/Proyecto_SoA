@@ -15,6 +15,7 @@ import UseImperativeHandle from './playground/UseImperativeHandle';
 import UseId from './playground/UseId';
 import Use from './playground/Use';
 import UseContextExample from './playground/UseContext';
+import UseSyncExternalStoreExample from './playground/UseSyncExternalStore';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/useId" element={<UseId/>} />
         <Route path="/use" element={<Use/>} />
         <Route path="/useContext" element={<UseContextExample/>} />
+        <Route path="/useSyncExternalStore" element={<UseSyncExternalStoreExample/>} />
       </Routes>
     </BrowserRouter>
   )
