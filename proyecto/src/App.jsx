@@ -16,7 +16,7 @@ import UseId from './playground/UseId';
 import Use from './playground/Use';
 import UseContextExample from './playground/UseContext';
 import UseSyncExternalStoreExample from './playground/UseSyncExternalStore';
-
+import UseTransitionExample from './playground/UseTransition';
 function App() {
 
   return (
@@ -38,6 +38,7 @@ function App() {
         <Route path="/use" element={<Use/>} />
         <Route path="/useContext" element={<UseContextExample/>} />
         <Route path="/useSyncExternalStore" element={<UseSyncExternalStoreExample/>} />
+        <Route path="/useTransition" element={<UseTransitionExample/>} />
       </Routes>
     </BrowserRouter>
   )
