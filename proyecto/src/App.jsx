@@ -18,6 +18,8 @@ import UseContextExample from './playground/UseContext';
 import UseSyncExternalStoreExample from './playground/UseSyncExternalStore';
 import UseTransitionExample from './playground/UseTransition';
 import UseInsertionEffectExample from './playground/UseInsertionEffect';
+import UseOptimisticExample from './playground/UseOptimistic';
+
 function App() {
 
   return (
@@ -41,6 +43,7 @@ function App() {
         <Route path="/useSyncExternalStore" element={<UseSyncExternalStoreExample/>} />
         <Route path="/useTransition" element={<UseTransitionExample/>} />
         <Route path="/useInsertionEffect" element={<UseInsertionEffectExample/>} />
+        <Route path="UseOptimistic" element={<UseOptimisticExample/>} />
       </Routes>
     </BrowserRouter>
   )
