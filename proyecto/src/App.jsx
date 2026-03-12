@@ -12,6 +12,7 @@ import UseRef from './playground/UseRef';
 import UseCallback from './playground/UseCallback';
 import UseLayoutEffect from './playground/UseLayoutEffect';
 import UseImperativeHandle from './playground/UseImperativeHandle';
+import UseId from './playground/UseId';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/useCallback" element={<UseCallback/>} />
         <Route path="/useLayoutEffect" element={<UseLayoutEffect/>} />
         <Route path="/useImperativeHandle" element={<UseImperativeHandle/>} />
+        <Route path="/useId" element={<UseId/>} />
       </Routes>
     </BrowserRouter>
   )
