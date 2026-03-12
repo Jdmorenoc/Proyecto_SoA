@@ -49,7 +49,7 @@ function HomeHooks() {
 
           <tr>
             <td>useMemo</td>
-            <td>se utiliza para memorizar el resultado de un cálculo y evitar que se ejecute nuevamente en cada render.</td>
+            <td>Se utiliza para memorizar el resultado de un cálculo y evitar que se ejecute nuevamente en cada render.</td>
             <td>Performance</td>
             <td>
               <button onClick={() => navigate("/useMemo")}>
@@ -57,8 +57,38 @@ function HomeHooks() {
               </button>
             </td>
           </tr>
+          <tr>
+            <td>useDeferredValue</td>
+            <td>Permite retrasar la actualización de un valor para mejorar el rendimiento de la interfaz.</td>
+            <td>Performance</td>
+            <td>
+              <button onClick={() => navigate("/useDeferredValue")}>
+                Ver Ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useEffect</td>
+            <td>Permite ejecutar efectos secundarios después de renderizar un componente.</td>
+            <td>Efectos</td>
+            <td>
+              <button onClick={() => navigate("/useEffect")}>
+                Ver Ejemplo
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>useActionState</td>
+            <td>Permite manejar el estado de acciones, especialmente en formularios y procesos asincrónicos.</td>
+            <td>Nuevos</td>
+            <td>
+              <button onClick={() => navigate("/useActionState")}>
+                Ver Ejemplo
+              </button>
+            </td>
+          </tr>
 
-                    <tr>
+                <tr>
             <td>useReducer</td>
             <td>Maneja estados complejos utilizando acciones y reducers.</td>
             <td>Estado</td>
