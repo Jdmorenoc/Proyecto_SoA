@@ -8,6 +8,7 @@ import UseDeferredValueExample from './playground/UseDeferredValue';
 import UseEffectExample from './playground/UseEffect';
 import UseActionStateExample from './playground/UseActionState';
 import UseReducer from './playground/UseReducer';
+import UseRef from './playground/UseRef';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/useEffect" element={<UseEffectExample/>} />
         <Route path="/useActionState" element={<UseActionStateExample/>} />
         <Route path="/useReducer" element={<UseReducer/>} />
+        <Route path="/useRef" element={<UseRef/>} />
       </Routes>
     </BrowserRouter>
   )
